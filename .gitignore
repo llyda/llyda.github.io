@@ -25,11 +25,3 @@ Thumbs.db
 /out/
 
 
-# # SPECIAL HANDLING FOR VERIFICATION
-# # Allow ONLY the verification file while hiding the directory listing
-# .well-known/*
-# !.well-known/pages-verification.txt
-
-# TEMPORARY EXCEPTION - remove after verification
-!.well-known/pages-verification.txt
-.well-known/
