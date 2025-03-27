@@ -1,10 +1,35 @@
-/node_modules
-.env
-.DS_Store
+/node_modules/
+# /vendor/
+# /bower_components/
 
-/logs/*
-!logs/.gitkeep
-/tmp
+.env
+.env.*
+
+.DS_Store
+Thumbs.db
 *.swp
 *.pyc
-*.txt
+/*.txt
+
+.vscode/
+
+.git/
+.vscode/
+
+/logs/*
+/tmp/*
+!logs/.gitkeep
+
+/dist/
+/build/
+/out/
+
+
+# # SPECIAL HANDLING FOR VERIFICATION
+# # Allow ONLY the verification file while hiding the directory listing
+# .well-known/*
+# !.well-known/pages-verification.txt
+
+# TEMPORARY EXCEPTION - remove after verification
+!.well-known/pages-verification.txt
+.well-known/
